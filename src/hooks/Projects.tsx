@@ -2,7 +2,7 @@ import { Card } from "flowbite-react";
 
 export function Projects() {
   return (
-    <Card className="max-w-sm">
+    <Card className="w-300">
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Projeler
       </h5>

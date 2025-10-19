@@ -6,7 +6,7 @@ import { About } from "./hooks/About.tsx";
 import { Skills } from "./hooks/Skills.tsx";
 import { Education } from "./hooks/Education.tsx";
 import { Projects } from "./hooks/Projects.tsx";
-import { Contact } from "./hooks/Contact.tsx";
+//import { Contact } from "./hooks/Contact.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -21,7 +21,9 @@ createRoot(document.getElementById("root")!).render(
           <Skills />
           <Education />
           <Projects />
-          <Contact />
+
+
+
         </div>
       </div>
     </div>
